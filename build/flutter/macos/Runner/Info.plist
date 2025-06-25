@@ -29,6 +29,10 @@
 		<key>NSPrincipalClass</key>
 		<string>NSApplication</string>
 
+		<key>NSLocationWhenInUseUsageDescription</key>
+		<string>This app uses location service when in use.</string>
+		<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+		<string>This app uses location service.</string>
 		
 	</dict>
 </plist>

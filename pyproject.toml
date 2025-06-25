@@ -27,8 +27,18 @@ company = "Flet"
 # copyright text to display in about app dialogs
 copyright = "Copyright (C) 2025 by Flet"
 
+permissions = ["location"]
+
 [tool.flet.app]
 path = "src"
+
+
+[tool.flet.android.permission]
+"android.permission.ACCESS_FINE_LOCATION" = true
+"android.permission.ACCESS_COARSE_LOCATION" = true
+"android.permission.ACCESS_BACKGROUND_LOCATION" = true
+
+
 
 [tool.uv]
 dev-dependencies = [

@@ -19,5 +19,9 @@
 		<!-- flet: True  -->
 		<true />
 		<!-- flet: False   -->
+		<key>com.apple.security.personal-information.location</key>
+		<!-- flet: True  -->
+		<true />
+		<!-- flet: False   -->
 	</dict>
 </plist>

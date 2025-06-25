@@ -51,6 +51,10 @@
 			<true/>
 		</dict>
 		<!-- flet: deep linking  -->
+		<key>NSLocationWhenInUseUsageDescription</key>
+		<string>This app uses location service when in use.</string>
+		<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+		<string>This app uses location service.</string>
 		<key>UIStatusBarHidden</key>
 		<false/>
 	</dict>
