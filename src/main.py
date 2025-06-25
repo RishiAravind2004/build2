@@ -28,32 +28,32 @@ def main(page: ft.Page):
         actions_alignment=ft.MainAxisAlignment.CENTER,
     )
 
-    async def handle_permission_request(e):
+    async def handle_permission_request():
         p = await gl.request_permission_async(wait_timeout=60)
         page.add(ft.Text(f"🟢 Permission requested: {p}"))
 
-    async def handle_get_permission_status(e):
+    async def handle_get_permission_status():
         p = await gl.get_permission_status_async()
         page.add(ft.Text(f"🔍 Permission status: {p}"))
 
-    async def handle_get_current_position(e):
+    async def handle_get_current_position():
         p = await gl.get_current_position_async()
         page.add(ft.Text(f"📍 Current position: ({p.latitude}, {p.longitude})"))
 
-    async def handle_get_last_known_position(e):
+    async def handle_get_last_known_position():
         p = await gl.get_last_known_position_async()
         page.add(ft.Text(f"📌 Last known position: ({p.latitude}, {p.longitude})"))
 
-    async def handle_location_service_enabled(e):
+    async def handle_location_service_enabled():
         p = await gl.is_location_service_enabled_async()
         page.add(ft.Text(f"🛰 Location service enabled: {p}"))
 
-    async def handle_open_location_settings(e):
+    async def handle_open_location_settings():
         p = await gl.open_location_settings_async()
         page.close(location_settings_dlg)
         page.add(ft.Text(f"⚙️ Opened location settings: {p}"))
 
-    async def handle_open_app_settings(e):
+    async def handle_open_app_settings():
         p = await gl.open_app_settings_async()
         page.close(app_settings_dlg)
         page.add(ft.Text(f"⚙️ Opened app settings: {p}"))
