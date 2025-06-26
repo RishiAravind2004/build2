@@ -1,5 +1,5 @@
 fastapi 
 uvicorn
 pydantic[email]
-ppsycopg2 
+psycopg2-binary
 reverse_geocoder
