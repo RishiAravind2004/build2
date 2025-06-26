@@ -1,2 +1,0 @@
-/workspaces/build2/build/flutter/android/app/.cxx/RelWithDebInfo/4u14d1h3/x86_64/CMakeFiles/edit_cache.dir
-/workspaces/build2/build/flutter/android/app/.cxx/RelWithDebInfo/4u14d1h3/x86_64/CMakeFiles/rebuild_cache.dir
